@@ -1,1 +1,1 @@
-# linked-list
+This linked list project was created for The Odin Project.
