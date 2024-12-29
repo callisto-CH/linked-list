@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Linked List</title>
+    <script src="linkedList.js"></script>
+</head>
+<body>
+    Check the browser console!
+    <br>
+    Type "let [NAME] = new LinkedList()" to create a linked list with the name [NAME].
+    <br>
+    A linked list is a data structure that consists of a collection of nodes.
+    <br>
+    A node is an object that contains a data value, and a pointer to the next node. These pointers "link" the nodes together like a chain.
+    <br>
+    The first node in a linked list is known as the head node, and the last is known as the tail node.
+    <br>
+    For example, a linked list consisting of nodes containing the values from 1-5 in order can be visualized like this: ( 1 ) -> ( 2 ) -> ( 3 ) -> ( 4 ) -> ( 5 ).
+    <br>
+    In the type of linked list that this project has, nodes do not contain a pointer to the previous node, that is, you can not traverse backwards along nodes.
+    <br>
+    <br>
+    <br>
+    Methods and properties:
+    <ul>
+        <li>LinkedList.append(value) appends a node containing the provided value to the end of the list.</li>
+        <li>LinkedList.prepend(value) prepends a node containing the provided value to the start of the list.</li>
+        <li>LinkedList.size returns the size of the list.</li>
+        <li>LinkedList.head returns the head node of the list.</li>
+        <li>LinkedList.tail returns the tail node of the list.</li>
+        <li>LinkedList.at(index) returns the node at the given index.</li>
+        <li>LinkedList.pop() removes and returns the tail node of the list.</li>
+        <li>LinkedList.contains(value) returns true if the list contains a node with the provided value, and false otherwise.</li>
+        <li>LinkedList.find(value) returns the (first) index at which a node with the provided value can be found in the list, and returns null if the value is not in the list.</li>
+        <li>LinkedList.toString() returns a string representation of the list.</li>
+        <li>LinkedList.insertAt(value, index) inserts a new node with the provided value at the given index.</li>
+        <li>LinkedList.removeAt(index) removes the node at the given index.</li>
+    </ul>
+</body>
+</html>
