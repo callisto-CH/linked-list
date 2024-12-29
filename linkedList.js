@@ -142,24 +142,24 @@ class LinkedList {
 
     // remove tail of list
     // also handles removing only node when list size is 1
-    if (index == this._size - 1) { 
-		this.pop();
-		return
-	}
+    if (index == this._size - 1) {
+      this.pop();
+      return;
+    }
 
-	let removed;
+    let removed;
 
     // remove head of list
     if (index == 0) {
       removed = this._head;
       this._head = removed.next;
 
-	// remove from middle of list
+      // remove from middle of list
     } else {
-		let beforeRemove = this.at(index - 1);
-    	removed = beforeRemove.next;
-    	beforeRemove.next = removed.next;
-	}
+      let beforeRemove = this.at(index - 1);
+      removed = beforeRemove.next;
+      beforeRemove.next = removed.next;
+    }
 
     removed.next = null;
     this._size -= 1;
