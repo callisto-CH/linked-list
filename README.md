@@ -1,1 +1,3 @@
 This linked list project was created for The Odin Project.
+
+I'd like to revisit this once I've completed the lessons on testing in The Odin Project to more rigorously test that my linked list class functions properly. I tested it with various input types including numbers, strings, arrays, objects, nodes, and linked lists. I ensured that all methods and properties functioned as expected for linked lists of small sizes less than 10, and then messed around with random methods on larger linked lists, checking after each manipulation that changes were made as expected. I tried to pay special attention to edge cases such as manipulations on the head or tail and manipulations on lists of size 0 or 1.
